@@ -1,2 +1,34 @@
 https://developer.mozilla.org/en-US/docs/Learn
 https://www.youtube.com/watch?v=xnWtGNiG2lg&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G
+
+
+JavaScript
+
+var nombreDeLaVariable = 'Bob'; // Declaracion de variable
+
+Tipos de Datos:
+	var miVariable = 'Bob';		// String
+	var miVariable = 10;		// Number
+	var miVariable = true;		// Boolean
+	var miVariable = [1,'Bob','Steve',10];		// Arreglo
+	miVariable[0];		// Llamado a dato de arreglo
+	var miVariable = document.querySelector('h1');		// Objecto
+	
+	
+Comentarios
+	// Comentario de una linea
+	/*
+		Comentario de multiples lineas
+	*/
+	
+miVariable ===	4 		// Comprueba que dos valores son iguales entre si
+
+Funciones:
+
+function multiplica(num1,num2) {
+  var resultado = num1 * num2;
+  return resultado;
+}
+
+alert('Mensaje');		// Lanza advertencia con mensaje
+prompt('Mensaje');		// Lanza advertencia con ingreso de datos
